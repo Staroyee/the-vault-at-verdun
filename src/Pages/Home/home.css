@@ -8,7 +8,12 @@
     position: relative; /* Make it a positioning context */
   }
   
+  .header {
+    position: absolute; /* Position the DownButton at the bottom */
+    top: 0; /* Adjust the value as needed */
+  }
+
   .down-button {
     position: absolute; /* Position the DownButton at the bottom */
-    bottom: 20px; /* Adjust the value as needed */
+    bottom: 1vh; /* Adjust the value as needed */
   }
