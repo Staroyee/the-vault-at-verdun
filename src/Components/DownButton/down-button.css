@@ -1,0 +1,39 @@
+:root {
+  --dark-color: #8b826d;
+  --light-color: #000;
+}
+
+.BB-Svg {
+  cursor: pointer;
+}
+
+#darkGroup {
+  fill: var(--dark-color);
+}
+#lightGroup {
+  fill: var(--light-color);
+}
+
+#light1,
+#dark1,
+#light2 {
+  transition: all 1s ease;
+}
+#light2 {
+  transform: translateY(-90%);
+  opacity: 0;
+}
+#dark1 {
+  transform: translateY(-12.5%);
+}
+svg:hover #dark1 {
+  transform: translateY(0%);
+}
+svg:hover #light1 {
+  transform: translateY(40%);
+  opacity: 0;
+}
+svg:hover #light2 {
+  transform: translateY(-0%);
+  opacity: 100;
+}
