@@ -22,8 +22,6 @@ export const MenuItem = ({ text, href, isOpen, rel, target }) => {
   return (
     <motion.li
       variants={variants}
-      whileHover={{ scale: 1.03 }}
-      whileTap={{ scale: 1 }}
     >
       <a
         href={href}
