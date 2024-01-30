@@ -7,33 +7,33 @@
   cursor: pointer;
 }
 
-#down-darkGroup {
+#up-darkGroup {
   fill: var(--dark-color);
 }
-#down-lightGroup {
+#up-lightGroup {
   fill: var(--light-color);
 }
 
-#down-light1,
-#down-dark1,
-#down-light2 {
+#up-light1,
+#up-dark1,
+#up-light2 {
   transition: all 1s ease;
 }
-#down-light2 {
-  transform: translateY(-90%);
+#up-light2 {
+  transform: translateY(45%);
   opacity: 0;
 }
-#down-dark1 {
-  transform: translateY(-12.5%);
+#up-dark1 {
+  transform: translateY(6%);
 }
-svg:hover #down-dark1 {
+svg:hover #up-dark1 {
   transform: translateY(0%);
 }
-svg:hover #down-light1 {
-  transform: translateY(40%);
+svg:hover #up-light1 {
+  transform: translateY(-20%);
   opacity: 0;
 }
-svg:hover #down-light2 {
+svg:hover #up-light2 {
   transform: translateY(-0%);
   opacity: 100;
 }
