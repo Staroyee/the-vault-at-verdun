@@ -18,21 +18,29 @@ const variants = {
   },
 };
 
-const colors = ["#e9e6e1", "#e9e6e1", "#e9e6e1", "#e9e6e1", "#e9e6e1"];
-
-export const MenuItem = ({ i }) => {
-  const style = { border: `2px solid ${colors[i]}` };
+export const MenuItem = ({ text, href, isOpen, rel, target }) => {
   return (
     <motion.li
       variants={variants}
-      whileHover={{ scale: 1.1 }}
-      whileTap={{ scale: 0.95 }}
+      whileHover={{ scale: 1.03 }}
+      whileTap={{ scale: 1 }}
     >
-      <div className="text-placeholder" style={style} />
+      <a
+        href={href}
+        rel={rel}
+        target={target}
+        className={`menu-item ${isOpen ? "header-open" : "header-closed"}`}
+      >
+        {text}
+      </a>
     </motion.li>
   );
 };
 
 MenuItem.propTypes = {
-  i: PropTypes.number,
+  text: PropTypes.string,
+  href: PropTypes.string,
+  isOpen: PropTypes.bool,
+  rel: PropTypes.string,
+  target: PropTypes.string,
 };

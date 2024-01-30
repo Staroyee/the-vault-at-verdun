@@ -39,5 +39,5 @@ export const MenuToggle = ({ toggle }) => (
 );
 
 MenuToggle.propTypes = {
-    toggle: PropTypes.func,
-  };
+  toggle: PropTypes.func,
+};

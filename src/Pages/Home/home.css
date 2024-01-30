@@ -1,19 +1,42 @@
 .home-container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background-color: #e9e6e1;
-    justify-content: center;
-    align-items: center;
-    position: relative; /* Make it a positioning context */
-  }
-  
-  .header {
-    position: absolute; /* Position the DownButton at the bottom */
-    top: 0; /* Adjust the value as needed */
-  }
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #e9e6e1;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Make it a positioning context */
+}
 
-  .down-button {
-    position: absolute; /* Position the DownButton at the bottom */
-    bottom: 1vh; /* Adjust the value as needed */
-  }
+.collective-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../assets//images/background1.jpg");
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: transparent; /* Set your desired background color */
+  z-index: 1000; /* Set a high z-index value to make sure it's on top of other elements */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* .title-container {
+  background-color: #e9e6e1;
+} */
+
+.page-title {
+  box-shadow: #e9e6e1;
+  font-size: 10vw;
+  font-weight: bold;
+  color: #fff;
+  mix-blend-mode: difference;
+}
+
+.down-button {
+  position: absolute; /* Position the DownButton at the bottom */
+  bottom: 1vh; /* Adjust the value as needed */
+}

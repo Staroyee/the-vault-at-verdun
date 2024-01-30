@@ -1,21 +1,44 @@
+import { PropTypes } from "prop-types";
 import { motion } from "framer-motion";
 import { MenuItem } from "./MenuItem";
 
 const variants = {
   open: {
-    transition: { staggerChildren: 0.07, delayChildren: 0.2 }
+    transition: { staggerChildren: 0.07, delayChildren: 0.2 },
   },
   closed: {
-    transition: { staggerChildren: 0.05, staggerDirection: -1 }
-  }
+    transition: { staggerChildren: 0.05, staggerDirection: -1 },
+  },
 };
 
-export const Navigation = () => (
+export const Navigation = ({ isOpen }) => (
   <motion.ul variants={variants}>
-    {itemIds.map(i => (
-      <MenuItem i={i} key={i} />
+    {itemData.map((item, i) => (
+      <MenuItem
+        key={i}
+        text={item.text}
+        href={item.href}
+        isOpen={isOpen}
+        rel={item.rel}
+        target={item.target}
+      />
     ))}
   </motion.ul>
 );
 
-const itemIds = [0, 1, 2, 3, 4];
+const itemData = [
+  { text: "Home", href: "#home" },
+  { text: "The Collective", href: "#collective" },
+  { text: "The Cafe", href: "#cafe" },
+  { text: "About", href: "#about" },
+  {
+    text: "Home Crystal Co",
+    href: "https://www.homecrystalco.com.au/",
+    rel: "noreferrer noopener",
+    target: "_blank",
+  },
+];
+
+Navigation.propTypes = {
+  isOpen: PropTypes.bool,
+};
