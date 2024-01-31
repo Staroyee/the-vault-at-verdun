@@ -17,9 +17,9 @@
   transition: background-color 0.3s ease; /* Add a smooth transition effect */
 }
 
-/* .title-container {
-  background-color: #e9e6e1;
-} */
+.logo {
+  width: 30vw;
+}
 
 .page-title {
   box-shadow: #e9e6e1;
@@ -37,4 +37,16 @@
 .down-button {
   position: absolute; /* Position the DownButton at the bottom */
   bottom: 1vh; /* Adjust the value as needed */
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 50vw;
+  }
 }

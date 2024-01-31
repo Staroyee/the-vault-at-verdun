@@ -7,9 +7,9 @@ const UpButton = ({ href, className }) => {
       <a href={href} className={className}>
         <svg
           className="BB-Svg"
-          width="60"
+          width="50"
           height="120"
-          viewBox="0 0 60 120"
+          viewBox="0 0 45 120"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >

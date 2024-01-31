@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <section id="home" className="home-container">
         <Header />
-        <img src={logo} alt="" className="logo" />
+        <img src={logo} alt="The Vault @ Verdun Logo" className="logo" />
         <DownButton className="down-button" href="#collective" />
       </section>
     </>
