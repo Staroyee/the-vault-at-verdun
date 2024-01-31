@@ -51,9 +51,9 @@ const Header = () => {
       animate={isOpen ? "open" : "closed"}
       custom={height}
       ref={containerRef}
-      className={isScrolled ? "header" : "header"}
+      className={`${isOpen ? "nav" : ""} ${isScrolled ? "header" : "header"}`}
     >
-      <motion.div className="background" variants={sidebar} />
+      <motion.div className={`${isOpen ? "background" : ""}`} variants={sidebar} />
       <Navigation isOpen={isOpen} />
       <MenuToggle toggle={() => toggleOpen()} />
     </motion.nav>

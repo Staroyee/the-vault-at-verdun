@@ -1,0 +1,53 @@
+.footer-section {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #c7bfac;
+  color: #000;
+}
+
+.left-column {
+  text-align: center;
+}
+
+.left-column li {
+    cursor: pointer;
+    text-align: left;
+}
+
+.right-column {
+  padding: 10px;
+  text-align: right;
+}
+
+.right-column li {
+  padding: 2px 0px 2px 0px;
+}
+
+.li-style {
+  position: relative;
+  color: #000;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.li-style::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform-origin: bottom left;
+  transition: width 0.25s ease-out;
+  z-index: 1; /* Ensure the pseudo-element is behind the text */
+}
+
+.li-style:hover::before {
+  width: 100%;
+}
+
+.address {
+  cursor: pointer;
+}

@@ -1,4 +1,4 @@
-nav {
+.nav {
   position: absolute;
   top: 0;
   left: 0;
@@ -15,12 +15,10 @@ nav {
   background: #c7bfac;
 }
 
+
 button {
   outline: none;
   border: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   cursor: pointer;
   position: absolute;
   top: 18px;
@@ -28,33 +26,28 @@ button {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: transparent;
+  background: #c7bfac;
 }
 
 ul,
 li {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
 
-ul {
+.header-ul {
   padding: 25px;
   position: absolute;
   top: 100px;
   width: 230px;
 }
 
-li {
-  list-style: none;
+.header-li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
-
-/* .menu-item {
-  font-size: large;
-  color: #000;
-} */
 
 .menu-item {
   display: inline-block;

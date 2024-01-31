@@ -22,6 +22,7 @@ export const MenuItem = ({ text, href, isOpen, rel, target }) => {
   return (
     <motion.li
       variants={variants}
+      className="header-li"
     >
       <a
         href={href}
