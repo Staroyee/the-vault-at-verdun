@@ -9,7 +9,8 @@ const Cafe = () => {
         <UpButton
           className="up-button"
           href="#collective"
-          ariaLabel="Link to the collective page"
+          ariaLabel="Button link to the collective page"
+          alt="Button link to the collective page"
         />
         <h1 className="page-title">CAFE</h1>
         <DownButton

@@ -6,7 +6,12 @@ const Collective = () => {
   return (
     <>
       <section id="collective" className="home-container collective-section">
-        <UpButton className="up-button" href="#home" />
+        <UpButton
+          className="up-button"
+          href="#home"
+          ariaLabel="Button link to the home page"
+          alt="Button link to the home page"
+        />
         <div className="title-container">
           <h1 className="page-title">COLLECTIVE</h1>
         </div>
