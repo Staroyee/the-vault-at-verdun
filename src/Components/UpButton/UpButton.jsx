@@ -1,10 +1,10 @@
 import { PropTypes } from "prop-types";
 import "./up-button.css"; // Rename the CSS file if necessary
 
-const UpButton = ({ href, className }) => {
+const UpButton = ({ href, className, ariaLabel }) => {
   return (
     <>
-      <a href={href} className={className}>
+      <a href={href} className={className} aria-label={ariaLabel} >
         <svg
           className="BB-Svg"
           width="50"
@@ -43,6 +43,7 @@ const UpButton = ({ href, className }) => {
 UpButton.propTypes = {
   href: PropTypes.string,
   className: PropTypes.string,
+  ariaLabel: PropTypes.string,
 };
 
 export default UpButton;

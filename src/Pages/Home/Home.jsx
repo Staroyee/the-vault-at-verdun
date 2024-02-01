@@ -9,7 +9,11 @@ const Home = () => {
       <section id="home" className="home-container">
         <Header />
         <img src={logo} alt="The Vault @ Verdun Logo" className="logo" />
-        <DownButton className="down-button" href="#collective" />
+        <DownButton
+          className="down-button"
+          href="#collective"
+          ariaLabel="Link to the collective page"
+        />
       </section>
     </>
   );

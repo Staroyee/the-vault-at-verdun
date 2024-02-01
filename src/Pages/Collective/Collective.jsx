@@ -10,7 +10,11 @@ const Collective = () => {
         <div className="title-container">
           <h1 className="page-title">COLLECTIVE</h1>
         </div>
-        <DownButton className="down-button" href="#cafe" />
+        <DownButton
+          className="down-button"
+          href="#cafe"
+          ariaLabel="Link to the cafe page"
+        />
       </section>
     </>
   );
