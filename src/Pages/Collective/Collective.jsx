@@ -13,7 +13,8 @@ const Collective = () => {
         <DownButton
           className="down-button"
           href="#cafe"
-          ariaLabel="Link to the cafe page"
+          ariaLabel="Button link to the cafe page"
+          alt="Button link to the collective page"
         />
       </section>
     </>

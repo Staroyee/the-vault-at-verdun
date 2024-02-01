@@ -15,7 +15,8 @@ const Cafe = () => {
         <DownButton
           className="down-button"
           href="#about"
-          ariaLabel="Link to the about page"
+          ariaLabel="Button link to the about page"
+          alt="Button link to the collective page"
         />
       </section>
     </>

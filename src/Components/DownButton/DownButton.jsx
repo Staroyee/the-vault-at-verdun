@@ -1,10 +1,10 @@
 import { PropTypes } from "prop-types";
 import "./down-button.css";
 
-const DownButton = ({ href, className, ariaLabel }) => {
+const DownButton = ({ href, className, ariaLabel, alt }) => {
   return (
     <>
-      <a href={href} className={className} aria-label={ariaLabel}>
+      <a href={href} className={className} aria-label={ariaLabel} alt={alt}>
         <svg
           className="BB-Svg"
           width="50"
@@ -44,6 +44,7 @@ DownButton.propTypes = {
   href: PropTypes.string,
   className: PropTypes.string,
   ariaLabel: PropTypes.string,
+  alt: PropTypes.string,
 };
 
 export default DownButton;
