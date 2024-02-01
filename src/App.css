@@ -10,7 +10,6 @@
     url("./assets/fonts/Charm/Charm-Regular.ttf") format("truetype");
 }
 
-
 html {
   scroll-behavior: smooth;
   font-family: Charm-Regular, sans-serif;
