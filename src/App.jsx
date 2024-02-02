@@ -1,22 +1,20 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
-import Home from "./Pages/Home/Home.jsx";
-import Collective from "./Pages/Collective/Collective.jsx";
-import Cafe from "./Pages/Cafe/Cafe.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 import "./App.css";
+
+const client = new ApolloClient({
+  cache: new InMemoryCache(),
+});
 
 function App() {
   return (
     <>
-      <Router>
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/collective" element={<Collective />} />
-          <Route path="/cafe" element={<Cafe />} />
-        </Routes>
-      </Router>
-      <Footer />
+      <ApolloProvider client={client}>
+        <Outlet />
+        <Footer />
+      </ApolloProvider>
     </>
   );
 }
