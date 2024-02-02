@@ -45,6 +45,7 @@ li {
 }
 
 .header-li {
+  font-size: 25px;
   margin-bottom: 20px;
   display: flex;
   align-items: center;

@@ -21,13 +21,6 @@
   width: 30vw;
 }
 
-.page-title {
-  font-size: 10vw;
-  font-weight: bold;
-  color: #000;
-  mix-blend-mode: difference;
-}
-
 .up-button {
   position: absolute;
   top: 0;

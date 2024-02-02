@@ -29,3 +29,9 @@ a {
   text-decoration: none;
   color: #000;
 }
+
+.page-title {
+  font-size: 10vw;
+  font-weight: bold;
+  color: #000;
+}
