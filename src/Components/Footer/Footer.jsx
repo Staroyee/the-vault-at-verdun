@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <section className="footer-section">
-        <ul className="left-column">
+        <ul className="footer-left-column">
           <li className="li-style">
             <a href="#">Become A Vendor</a>
           </li>
@@ -28,7 +28,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <ul className="right-column">
+          <ul className="footer-right-column">
             <li>33 Onkaparinga Valley Road,</li>
             <li>Verdun,</li>
             <li>South Australia,</li>
