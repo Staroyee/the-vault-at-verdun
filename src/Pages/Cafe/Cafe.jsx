@@ -1,24 +1,24 @@
-import UpButton from "../../Components/UpButton/UpButton";
-import DownButton from "../../Components/DownButton/DownButton";
+import Header from "../../Components/Header/Header.jsx";
+import Cake from "../../assets/images/cake.jpg"
+import Coffee from "../../assets/images/coffee.jpg"
 import "./cafe.css";
 
 const Cafe = () => {
   return (
     <>
-      <section id="cafe" className="home-container">
-        <UpButton
-          className="up-button"
-          href="#collective"
-          ariaLabel="Button link to the collective page"
-          alt="Button link to the collective page"
-        />
-        <h1 className="page-title">CAFE</h1>
-        <DownButton
-          className="down-button"
-          href="#about"
-          ariaLabel="Button link to the about page"
-          alt="Button link to the collective page"
-        />
+      <section id="cafe" className="cafe-container">
+        <Header />
+        <h1 className="page-title">Our Café</h1>
+        <div className="coffee-div">
+          <img src={Coffee} alt="" className="coffee-image" />
+          <h1>Coffee</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia dolorem quidem voluptatibus eum! Nesciunt adipisci, cum asperiores culpa alias rem ut ducimus dolor neque cumque numquam quisquam in unde dolorum.</p>
+        </div>
+        <div className="cake-div">
+          <h1>Cake</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maiores culpa ea maxime! Rem fugit vitae eos consequatur. Hic id nam esse facilis tempora perspiciatis dolorum earum asperiores sunt fugit.</p>
+          <img src={Cake} alt="" className="cake-image" />
+        </div>
       </section>
     </>
   );

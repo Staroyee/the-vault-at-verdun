@@ -1,4 +1,5 @@
 import Header from "../../Components/Header/Header.jsx";
+import About from "../About/About.jsx";
 import DownButton from "../../Components/DownButton/DownButton.jsx";
 import logo from "../../assets/images/logo.png";
 import "./home.css";
@@ -11,11 +12,12 @@ const Home = () => {
         <img src={logo} alt="The Vault @ Verdun Logo" className="logo" />
         <DownButton
           className="down-button"
-          href="#collective"
+          href="#about"
           ariaLabel="Button link to the collective page"
           alt="Button link to the collective page"
         />
       </section>
+      <About />
     </>
   );
 };

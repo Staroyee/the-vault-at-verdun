@@ -1,4 +1,4 @@
-import instagramLogo from "../../assets/images/instagram-logo.png"
+import instagramLogo from "../../assets/images/instagram-logo.png";
 import "./footer.css";
 
 const Footer = () => {
@@ -13,7 +13,11 @@ const Footer = () => {
             <a href="#">Contact Us</a>
           </li>
           <li>
-            <a href="https://www.instagram.com/the.vault.at.verdun/" rel="noopener noreferrer" target="_blank">
+            <a
+              href="https://www.instagram.com/the.vault.at.verdun/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               <img src={instagramLogo} className="instagram-logo"></img>
             </a>
           </li>

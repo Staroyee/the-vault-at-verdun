@@ -27,10 +27,10 @@ export const Navigation = ({ isOpen }) => (
 );
 
 const itemData = [
-  { text: "Home", href: "#home" },
-  { text: "The Collective", href: "#collective" },
-  { text: "The Cafe", href: "#cafe" },
-  { text: "About", href: "#about" },
+  { text: "Home", href: "/" },
+  { text: "The Collective", href: "/collective" },
+  { text: "The Cafe", href: "/cafe" },
+  { text: "About", href: "/#about" },
   {
     text: "Home Crystal Co",
     href: "https://www.homecrystalco.com.au/",

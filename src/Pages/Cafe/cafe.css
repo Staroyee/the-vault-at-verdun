@@ -1,0 +1,29 @@
+.cafe-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #e9e6e1;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Make it a positioning context */
+}
+
+.coffee-div {
+    display: flex;
+    padding: 2vw 20vw;
+}
+
+.cake-div {
+    display: flex;
+    padding: 2vw 20vw;
+}
+
+.coffee-image {
+    margin: 0 20px 0 0;
+    width: 200px;
+}
+
+.cake-image {
+    margin: 0 0 0 20px;
+    width: 200px;
+}
