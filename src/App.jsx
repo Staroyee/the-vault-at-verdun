@@ -9,7 +9,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Router basename="https://thevaultatverdun.netlify.app/" >
+      <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/collective" element={<Collective />} />
