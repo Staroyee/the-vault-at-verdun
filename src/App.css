@@ -64,13 +64,13 @@ a {
 }
 
 .left-image {
-  border-radius: 50px;
+  border-radius: 100px 100px 5px 5px;
   margin: 0 20px 0 0;
   width: 200px;
 }
 
 .right-image {
-  border-radius: 50px;
+  border-radius: 100px 100px 5px 5px;
   margin: 0 0 0 20px;
   width: 200px;
 }

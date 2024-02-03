@@ -21,11 +21,6 @@
   width: 30vw;
 }
 
-.up-button {
-  position: absolute;
-  top: 0;
-}
-
 .down-button {
   position: absolute; /* Position the DownButton at the bottom */
   bottom: 1vh; /* Adjust the value as needed */

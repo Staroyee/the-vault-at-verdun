@@ -1,9 +1,11 @@
+import Header from "../../Components/Header/Header.jsx";
 import Coffee from "../../assets/images/coffee.jpg";
 import "./about.css";
 
 const About = () => {
   return (
     <>
+      <Header />
       <section id="about" className="about-container">
         <img src={Coffee} alt="" className="the-vault-image" />
         <div>
