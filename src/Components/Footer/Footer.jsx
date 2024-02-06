@@ -17,7 +17,7 @@ const Footer = () => {
         </ul>
 
         <ul className="footer-middle-column">
-        <li className="li-title">Info - </li>
+          <li className="li-title">Info - </li>
           <li className="li-style">
             <a href="/become-a-vendor">Become a Vendor</a>
           </li>
@@ -45,7 +45,7 @@ const Footer = () => {
           target="_blank"
         >
           <ul className="footer-right-column">
-          <li className="li-title">Address - </li>
+            <li className="li-title">Address - </li>
             <li>33 Onkaparinga Valley Road,</li>
             <li>Verdun,</li>
             <li>South Australia,</li>

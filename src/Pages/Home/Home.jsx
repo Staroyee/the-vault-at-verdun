@@ -1,7 +1,7 @@
 import Header from "../../Components/Header/Header.jsx";
 import DownButton from "../../Components/DownButton/DownButton.jsx";
 import Coffee from "../../assets/images/coffee.jpg";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo1.png";
 import "./home.css";
 
 const Home = () => {
