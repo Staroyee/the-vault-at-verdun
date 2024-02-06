@@ -1,6 +1,6 @@
 import Header from "../../Components/Header/Header.jsx";
 import Coffee from "../../assets/images/coffee.jpg";
-import "./collective.css";
+import "./rent-rack.css";
 
 const RentRack = () => {
   return (

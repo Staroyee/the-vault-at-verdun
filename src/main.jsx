@@ -2,9 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./Pages/Home/Home.jsx";
-import About from "./Pages/About/About.jsx";
 import Collective from "./Pages/Collective/Collective.jsx";
+import Vendor from "./Pages/Vendor/Vendor.jsx";
+import RentRack from "./Pages/RentRack/RentRack.jsx";
 import Cafe from "./Pages/Cafe/Cafe.jsx";
+import About from "./Pages/About/About.jsx";
+
 import App from "./App.jsx";
 
 const router = createBrowserRouter([
@@ -23,6 +26,14 @@ const router = createBrowserRouter([
       {
         path: "/cafe",
         element: <Cafe />,
+      },
+      {
+        path: "/become-a-vendor",
+        element: <Vendor />,
+      },
+      {
+        path: "/rent-a-rack",
+        element: <RentRack />,
       },
       {
         path: "/about",

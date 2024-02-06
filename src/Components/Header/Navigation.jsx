@@ -30,7 +30,7 @@ const itemData = [
   { text: "Home", href: "/" },
   { text: "The Collective", href: "/collective" },
   { text: "The Cafe - Coming Soon", href: "/cafe" },
-  { text: "Become a Vendor", href: "/vendor" },
+  { text: "Become a Vendor", href: "/become-a-vendor" },
   { text: "Rent a Rack", href: "/rent-a-rack" },
   { text: "About", href: "/about" },
   {
