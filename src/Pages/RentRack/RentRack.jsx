@@ -6,38 +6,34 @@ const RentRack = () => {
   return (
     <>
       <Header />
-      <section className="title-container collective-container">
-        <img
-          src={Coffee}
-          alt="image of the inside of The Vault at Verdun"
-          className="collective-image"
-        />
+      <section className="collective-container">
+        <img src={Coffee} alt="" className="collective-image" />
         <div>
-          <h1 className="collective-title">Rent a Rack</h1>
+          <h1 className="collective-title">The Vault at Verdun</h1>
           <div className="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-              similique excepturi quos saepe, sapiente atque dolorum eligendi
-              hic, facilis repellat nemo laboriosam suscipit magnam recusandae
-              ducimus veniam molestiae optio quaerat?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              ullam, distinctio voluptas asperiores architecto illo porro soluta
+              aperiam voluptates explicabo. Error minus sequi at? Dignissimos
+              eveniet numquam voluptate obcaecati aspernatur.
             </p>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Voluptatibus laudantium dignissimos ut, maiores, natus qui eius
-              libero minus error, necessitatibus voluptate animi quisquam quia?
-              Ex fuga tempora libero impedit nesciunt.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              earum, iusto maxime dignissimos fuga qui dolorem. Molestias
+              inventore debitis esse voluptatibus quae, placeat, ut, impedit
+              dolorum commodi nobis recusandae beatae.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-              officiis ut dolore cum delectus reiciendis quis, deleniti quia
-              quidem unde mollitia labore obcaecati a fugiat. Ipsam qui officia
-              porro culpa!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              itaque officia numquam error. Velit voluptatem quam animi dolores
+              sapiente cum magnam sit, eos commodi? Maxime non provident eaque
+              fugit? Neque.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-              illo quos quo atque explicabo! Doloremque impedit maxime molestiae
-              quibusdam. Ipsum molestias porro necessitatibus nostrum, sit
-              cupiditate. Atque aliquid minus maxime!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Exercitationem architecto assumenda quo voluptas earum, quia ut
+              neque! Sed nobis, quas porro ipsam incidunt earum voluptas? Ex
+              quibusdam corrupti aspernatur nobis.
             </p>
           </div>
         </div>
