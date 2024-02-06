@@ -2,7 +2,7 @@ import Header from "../../Components/Header/Header.jsx";
 import Coffee from "../../assets/images/coffee.jpg";
 import "./collective.css";
 
-const Collective = () => {
+const RentRack = () => {
   return (
     <>
       <Header />
@@ -13,7 +13,7 @@ const Collective = () => {
           className="collective-image"
         />
         <div>
-          <h1 className="collective-title">The Collective</h1>
+          <h1 className="collective-title">Rent a Rack</h1>
           <div className="text-container">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
@@ -46,4 +46,4 @@ const Collective = () => {
   );
 };
 
-export default Collective;
+export default RentRack;

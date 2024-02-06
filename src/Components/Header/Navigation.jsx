@@ -29,7 +29,9 @@ export const Navigation = ({ isOpen }) => (
 const itemData = [
   { text: "Home", href: "/" },
   { text: "The Collective", href: "/collective" },
-  { text: "The Cafe", href: "/cafe" },
+  { text: "The Cafe - Coming Soon", href: "/cafe" },
+  { text: "Become a Vendor", href: "/vendor" },
+  { text: "Rent a Rack", href: "/rent-a-rack" },
   { text: "About", href: "/about" },
   {
     text: "Home Crystal Co",
