@@ -1,7 +1,7 @@
 .collective-container {
   display: flex;
   flex-direction: row;
-  height: 110vh;
+  height: 100vh;
   background-color: #e9e6e1;
   text-align: center;
   justify-content: center;
@@ -30,7 +30,7 @@
   }
   .collective-container {
     flex-direction: column;
-    height: 1350px;
+    height: 1500px;
   }
   .text-container {
     width: 80vw;
