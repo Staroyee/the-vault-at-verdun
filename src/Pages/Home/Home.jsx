@@ -1,6 +1,6 @@
 import Header from "../../Components/Header/Header.jsx";
 import DownButton from "../../Components/DownButton/DownButton.jsx";
-import Coffee from "../../assets/images/coffee.jpg";
+import Shop2 from "../../assets/images/shop-2.jpg";
 import logo from "../../assets/images/logo1.png";
 import "./home.css";
 
@@ -18,9 +18,9 @@ const Home = () => {
         />
       </section>
       <section id="about" className="about-container">
-        <img src={Coffee} alt="" className="the-vault-image" />
+        <img src={Shop2} alt="" className="the-vault-image" />
         <div>
-          <h1 className="about-title">The Vault at Verdun</h1>
+          <h1 className="about-title">THE VAULT AT VERDUN</h1>
           <div className="text-container">
             <p>
               Welcome to The Vault @ Verdun Adelaide Hill’s newest Cafe & Co-op

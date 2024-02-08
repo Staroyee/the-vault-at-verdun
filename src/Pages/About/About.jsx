@@ -1,5 +1,5 @@
 import Header from "../../Components/Header/Header.jsx";
-import Coffee from "../../assets/images/coffee.jpg";
+import Shop2 from "../../assets/images/shop-2.jpg";
 import "./about.css";
 
 const About = () => {
@@ -7,7 +7,7 @@ const About = () => {
     <>
       <Header />
       <section id="about" className="about-container">
-        <img src={Coffee} alt="" className="the-vault-image" />
+        <img src={Shop2} alt="" className="the-vault-image" />
         <div>
           <h1 className="about-title">The Vault at Verdun</h1>
           <div className="text-container">

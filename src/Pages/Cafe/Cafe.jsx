@@ -23,12 +23,12 @@ const Cafe = () => {
     <>
       <section id="cafe" className="cafe-container">
         <Header />
-        <h1 className="page-title">The Cafe</h1>
+        <h1 className="page-title">THE CAFE</h1>
         {windowWidth <= 1200 ? (
           <>
             <div className="left-column">
               <img src={Coffee} alt="" className="left-image" />
-              <h1 className="cafe-title">Coffee</h1>
+              <h1 className="cafe-title">COFFEE</h1>
               <p>Proudly Serving De Groot Coffee Co.</p>
               <p>
                 De Groot Coffee Co. is a family-owned coffee roastery in Port
@@ -54,7 +54,7 @@ const Cafe = () => {
             </div>
             <div className="right-column">
               <img src={Cake} alt="" className="right-image" />
-              <h1 className="cafe-title">Food</h1>
+              <h1 className="cafe-title">FOOD</h1>
               <p>
                 Offering a delightful array of savoury and sweet treats at
                 budget-friendly prices.

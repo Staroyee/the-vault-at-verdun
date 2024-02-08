@@ -13,6 +13,7 @@
   margin-right: 30px;
   border-radius: 150px 150px 5px 5px;
   width: 300px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
 }
 
 .collective-title {
@@ -30,7 +31,7 @@
   }
   .collective-container {
     flex-direction: column;
-    height: 1500px;
+    height: 1550px;
   }
   .text-container {
     width: 80vw;

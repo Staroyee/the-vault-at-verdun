@@ -3,7 +3,7 @@
   flex-direction: row;
   height: 100vh;
   background-color: #e9e6e1;
-  text-align: center;
+  text-align: left;
   justify-content: center;
   align-items: center;
   position: relative; /* Make it a positioning context */
@@ -22,9 +22,22 @@
   margin-right: 30px;
   border-radius: 150px 150px 5px 5px;
   width: 300px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 1060px) {
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: #e9e6e1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Make it a positioning context */
+  }
+  
+
   .the-vault-image {
     margin: 0 0 30px 0;
   }

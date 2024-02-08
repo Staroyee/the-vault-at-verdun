@@ -1,18 +1,18 @@
 @font-face {
-  font-family: "Charm-Bold";
-  src: local("Charm-Bold"),
-    url("./assets/fonts/Charm/Charm-Bold.ttf") format("truetype");
+  font-family: "Radley-Bold";
+  src: local("Radley-Bold"),
+    url("./assets/fonts/Radley/Radley-Italic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Charm-Regular";
-  src: local("Charm-Regular"),
-    url("./assets/fonts/Charm/Charm-Regular.ttf") format("truetype");
+  font-family: "Radley-Regular";
+  src: local("Radley-Regular"),
+    url("./assets/fonts/Radley/Radley-Regular.ttf") format("truetype");
 }
 
 html {
   scroll-behavior: smooth;
-  font-family: Charm-Regular, sans-serif;
+  font-family: Radley-Regular, sans-serif;
 }
 
 body {

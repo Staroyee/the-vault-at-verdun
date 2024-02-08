@@ -27,14 +27,14 @@ export const Navigation = ({ isOpen }) => (
 );
 
 const itemData = [
-  { text: "Home", href: "/" },
-  { text: "The Collective", href: "/collective" },
-  { text: "The Cafe - Coming Soon", href: "/cafe" },
-  { text: "Become a Vendor", href: "/become-a-vendor" },
-  { text: "Rent a Rack", href: "/rent-a-rack" },
-  { text: "About", href: "/about" },
+  { text: "HOME", href: "/" },
+  { text: "THE COLLECTIVE", href: "/collective" },
+  { text: "THE CAFE - Coming Soon", href: "/cafe" },
+  { text: "BECOME A VENDOR", href: "/become-a-vendor" },
+  { text: "RENT A RACK", href: "/rent-a-rack" },
+  { text: "ABOUT", href: "/about" },
   {
-    text: "Home Crystal Co",
+    text: "HOME CRYSTAL CO",
     href: "https://www.homecrystalco.com.au/",
     rel: "noreferrer noopener",
     target: "_blank",
