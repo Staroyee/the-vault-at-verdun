@@ -1,5 +1,5 @@
 import Header from "../../Components/Header/Header.jsx";
-import Coffee from "../../assets/images/coffee.jpg";
+import Shop2 from "../../assets/images/shop-2.jpg";
 import "./collective.css";
 
 const Collective = () => {
@@ -7,7 +7,7 @@ const Collective = () => {
     <>
       <Header />
       <section className="collective-container">
-        <img src={Coffee} alt="" className="collective-image" />
+        <img src={Shop2} alt="" className="collective-image" />
         <div>
           <h1 className="collective-title">The Vault at Verdun</h1>
           <div className="text-container">
