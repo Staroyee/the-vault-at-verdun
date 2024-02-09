@@ -80,35 +80,8 @@ const Cafe = () => {
           </>
         ) : (
           <>
-            <div className="left-column">
+          <div className="left-column">
               <img src={Coffee} alt="" className="left-image" />
-              <div>
-                <h1 className="cafe-title">Food</h1>
-                <p>
-                  Offering a delightful array of savoury and sweet treats at
-                  budget-friendly prices.
-                </p>
-                <p>
-                  Choose to dine in and enjoy our welcoming atmosphere or grab
-                  your favourites to go.
-                </p>
-                <p>
-                  We prioritise inclusivity by stocking a variety of products
-                  tailored to different dietary preferences, such as vegetarian,
-                  vegan, and gluten-free options.
-                </p>
-                <p>
-                  Our foods are locally sourced from South Australian-owned
-                  bakers, ensuring freshness with daily deliveries before
-                  opening.
-                </p>
-                <p>
-                  Discover exclusive daily deals, loyalty card benefits, and
-                  more available in-store.
-                </p>
-              </div>
-            </div>
-            <div className="right-column">
               <div>
                 <h1 className="cafe-title">Coffee</h1>
                 <p>Proudly Serving De Groot Coffee Co.</p>
@@ -134,8 +107,36 @@ const Cafe = () => {
                   different from most roasters.
                 </p>
               </div>
+            </div>
+            <div className="right-column">
+              <div>
+                <h1 className="cafe-title">Food</h1>
+                <p>
+                  Offering a delightful array of savoury and sweet treats at
+                  budget-friendly prices.
+                </p>
+                <p>
+                  Choose to dine in and enjoy our welcoming atmosphere or grab
+                  your favourites to go.
+                </p>
+                <p>
+                  We prioritise inclusivity by stocking a variety of products
+                  tailored to different dietary preferences, such as vegetarian,
+                  vegan, and gluten-free options.
+                </p>
+                <p>
+                  Our foods are locally sourced from South Australian-owned
+                  bakers, ensuring freshness with daily deliveries before
+                  opening.
+                </p>
+                <p>
+                  Discover exclusive daily deals, loyalty card benefits, and
+                  more available in-store.
+                </p>
+              </div>
               <img src={Cake} alt="" className="right-image" />
             </div>
+            
           </>
         )}
       </section>

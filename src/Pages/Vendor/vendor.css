@@ -37,13 +37,6 @@
   }
 }
 
-@media screen and (max-width: 654px) {
-  .collective-container {
-    flex-direction: column;
-    height: 1350px;
-  }
-}
-
 @media screen and (max-width: 450px) {
   .collective-container {
     flex-direction: column;
