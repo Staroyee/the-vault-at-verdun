@@ -1,0 +1,12 @@
+.contact-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #202020;
+    color: #e9e6e1;
+}
+
+.contact-button:hover {
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.2);
+    background-color: #c7bfac;
+    color: #202020;
+}

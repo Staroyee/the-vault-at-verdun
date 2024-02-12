@@ -23,7 +23,7 @@ const Cafe = () => {
     <>
       <section id="cafe" className="cafe-container">
         <Header />
-        <h1 className="page-title">THE CAFE</h1>
+        <h1 className="page-title">THE CAFE - Coming Soon</h1>
         {windowWidth <= 1200 ? (
           <>
             <div className="left-column">
