@@ -12,7 +12,7 @@ const RentRack = () => {
         <div>
           <h1 className="collective-title">RENT A RACK</h1>
           <div className="text">
-            <div className="text-container">
+            <div className="p-container">
               <p>
                 The Vault @ Verdun offers ‘rent-a-rack’ services for pre-loved
                 clothing as well as selected new clothing from local brands/
@@ -29,8 +29,8 @@ const RentRack = () => {
               </p>
             </div>
             <div>
-              <h1>- RACK OPTIONS</h1>
-              <div className="text-container">
+              <h1>RACK OPTIONS</h1>
+              <div className="p-container">
                 <p>
                   {" "}
                   ½ Rack: Up to 20 hangers + 5 accessories (hats, shoes, bags,
@@ -44,18 +44,16 @@ const RentRack = () => {
               </div>
             </div>
             <div className="pricing">
-              <h1>- PRICING</h1>
-              <div className="text-container">
+              <h1>PRICING</h1>
+              <div className="p-container">
                 <p>½ Rack: 1 week $45, 2 weeks $80</p>
                 <p>Full Rack: 1 week $80, 2 weeks $145</p>
                 <p>Kid’s Rack: 1 week $55, 2 weeks $100</p>
               </div>
             </div>
-            <div>
-              <p>
-                Send an enquiry to:{" "}
-                <span className="email">thevaultatverdun@gmail.com</span>
-              </p>
+            <div className="p-container">
+              <p>To rent a rack, send an enquiry to: </p>
+              <p className="email">thevaultatverdun@gmail.com</p>
               <p>or message us on instagram!</p>
             </div>
           </div>
