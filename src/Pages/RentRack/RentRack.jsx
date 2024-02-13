@@ -7,7 +7,7 @@ const RentRack = () => {
   return (
     <>
       <Header />
-      <section className="collective-container">
+      <section className="r-container">
         <img src={Coffee} alt="" className="collective-image" />
         <div>
           <h1 className="collective-title">RENT A RACK</h1>
