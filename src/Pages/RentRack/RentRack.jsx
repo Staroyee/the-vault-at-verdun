@@ -1,6 +1,5 @@
 import Header from "../../Components/Header/Header.jsx";
-import ContactButton from "../../Components/ContactButton/ContactButton.jsx";
-import Coffee from "../../assets/images/coffee.jpg";
+import Rack from "../../assets/images/shop-1.jpg";
 import "./rent-rack.css";
 
 const RentRack = () => {
@@ -8,11 +7,11 @@ const RentRack = () => {
     <>
       <Header />
       <section className="r-container">
-        <img src={Coffee} alt="" className="collective-image" />
+        <img src={Rack} alt="" className="r-image" />
         <div>
-          <h1 className="collective-title">RENT A RACK</h1>
-          <div className="text">
-            <div className="p-container">
+          <h1 className="r-title">RENT A RACK</h1>
+          <div className="r-text">
+            <div className="r-p-container">
               <p>
                 The Vault @ Verdun offers ‘rent-a-rack’ services for pre-loved
                 clothing as well as selected new clothing from local brands/
@@ -30,7 +29,7 @@ const RentRack = () => {
             </div>
             <div>
               <h1>RACK OPTIONS</h1>
-              <div className="p-container">
+              <div className="r-p-container">
                 <p>
                   {" "}
                   ½ Rack: Up to 20 hangers + 5 accessories (hats, shoes, bags,
@@ -43,17 +42,17 @@ const RentRack = () => {
                 </p>
               </div>
             </div>
-            <div className="pricing">
+            <div className="r-pricing">
               <h1>PRICING</h1>
-              <div className="p-container">
+              <div className="r-p-container">
                 <p>½ Rack: 1 week $45, 2 weeks $80</p>
                 <p>Full Rack: 1 week $80, 2 weeks $145</p>
                 <p>Kid’s Rack: 1 week $55, 2 weeks $100</p>
               </div>
             </div>
-            <div className="p-container">
+            <div className="r-p-container">
               <p>To rent a rack, send an enquiry to: </p>
-              <p className="email">thevaultatverdun@gmail.com</p>
+              <p className="r-email">thevaultatverdun@gmail.com</p>
               <p>or message us on instagram!</p>
             </div>
           </div>

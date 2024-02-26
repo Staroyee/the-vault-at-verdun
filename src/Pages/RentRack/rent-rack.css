@@ -9,37 +9,37 @@
   position: relative; /* Make it a positioning context */
 }
 
-.collective-image {
+.r-image {
   margin-right: 30px;
   border-radius: 150px 150px 5px 5px;
   width: 300px;
 }
 
-.collective-title {
+.r-title {
   font-size: 50px;
 }
 
-.p-container {
+.r-p-container {
   padding-left: 15px;
   border-left: #c7bfac solid 4px;
 }
 
-.text {
+.r-text {
   padding-bottom: 20px;
   font-size: 20px;
   width: 60vw;
 }
 
-.pricing {
+.r-pricing {
   padding-bottom: 20px;
 }
 
-.email {
+.r-email {
   text-decoration: underline;
 }
 
 @media screen and (max-width: 1060px) {
-  .collective-image {
+  .r-collective-image {
     margin: 0 0 30px 0;
   }
   .r-container {
@@ -48,13 +48,13 @@
     height: 1500px;
   }
 
-  .p-container {
+  .r-p-container {
     padding: 0 15px 0 15px;
     border-left: #c7bfac solid 4px;
     border-right: #c7bfac solid 4px;
   }
 
-  .text {
+  .r-text {
     width: 80vw;
   }
 }
@@ -71,7 +71,7 @@
     height: 1800px;
   }
 
-  .text {
+  .r-text {
     padding: 0px 20px;
     width: 85vw;
   }
@@ -83,7 +83,7 @@
     height: 2000px;
   }
 
-  .text {
+  .r-text {
     padding: 0px 20px;
     width: 85vw;
   }
@@ -95,16 +95,16 @@
     height: 2100px;
   }
 
-  .collective-image {
+  .r-collective-image {
     height: 380px;
     width: 250px;
   }
 
-  .email {
+  .r-email {
     font-size: 18px;
   }
 
-  .text {
+  .r-text {
     padding: 0px 20px;
     width: 85vw;
   }
@@ -116,11 +116,11 @@
     height: 2300px;
   }
 
-  .email {
+  .r-email {
     font-size: 15px;
   }
 
-  .text {
+  .r-text {
     padding: 0px 20px;
     width: 85vw;
   }

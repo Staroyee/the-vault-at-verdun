@@ -51,7 +51,7 @@ const Header = () => {
       animate={isOpen ? "open" : "closed"}
       custom={height}
       ref={containerRef}
-      className={`${isOpen ? "nav" : ""} ${isScrolled ? "header" : "header"}`}
+      className={`${isOpen ? "nav" : ""} ${isScrolled ? "h-header" : "h-header"}`}
     >
       <motion.div className={`${isOpen ? "background" : ""}`} variants={sidebar} />
       <Navigation isOpen={isOpen} />

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Header from "../../Components/Header/Header.jsx";
-import Cake from "../../assets/images/cake.jpg";
-import Coffee from "../../assets/images/coffee.jpg";
+import Croissant from "../../assets/images/coffee.jpg";
+import Coffee from "../../assets/images/groot-coffee.png";
 import "./cafe.css";
 
 const Cafe = () => {
@@ -27,7 +27,7 @@ const Cafe = () => {
         {windowWidth <= 1200 ? (
           <>
             <div className="left-column">
-              <img src={Coffee} alt="" className="left-image" />
+              <img src={Coffee} alt="" className="left-image" ></img>
               <h1 className="cafe-title">COFFEE</h1>
               <p>Proudly Serving De Groot Coffee Co.</p>
               <p>
@@ -53,7 +53,7 @@ const Cafe = () => {
               </p>
             </div>
             <div className="right-column">
-              <img src={Cake} alt="" className="right-image" />
+              <img src={Croissant} alt="" className="right-image" />
               <h1 className="cafe-title">FOOD</h1>
               <p>
                 Offering a delightful array of savoury and sweet treats at
@@ -134,7 +134,7 @@ const Cafe = () => {
                   more available in-store.
                 </p>
               </div>
-              <img src={Cake} alt="" className="right-image" />
+              <img src={Croissant} alt="" className="right-image" />
             </div>
             
           </>

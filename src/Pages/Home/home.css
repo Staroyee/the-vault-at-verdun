@@ -1,14 +1,29 @@
-.home-container {
+.h-container-1 {
   display: flex;
   flex-direction: column;
   height: 100vh;
   background-color: #e9e6e1;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   position: relative; /* Make it a positioning context */
 }
 
-.header {
+.h-container-2 {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+}
+
+.h-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h-header {
   position: fixed;
   top: 0;
   left: 0;
@@ -17,23 +32,23 @@
   transition: background-color 0.3s ease; /* Add a smooth transition effect */
 }
 
-.logo {
+.h-logo {
   width: 30vw;
 }
 
-.down-button {
+.h-down-button {
   position: absolute; /* Position the DownButton at the bottom */
   bottom: 1vh; /* Adjust the value as needed */
 }
 
 @media screen and (max-width: 1024px) {
-  .logo {
+  .h-logo {
     width: 40vw;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .logo {
+  .h-logo {
     width: 50vw;
   }
 }

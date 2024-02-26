@@ -1,4 +1,4 @@
-.collective-container {
+.v-container {
   display: flex;
   flex-direction: row;
   height: 100vh;
@@ -9,41 +9,41 @@
   position: relative; /* Make it a positioning context */
 }
 
-.collective-image {
+.v-image {
   margin-right: 30px;
   border-radius: 150px 150px 5px 5px;
   width: 300px;
 }
 
-.collective-title {
+.v-title {
   font-size: 50px;
 }
 
-.text-container {
+.v-text-container {
   font-size: 20px;
   width: 60vw;
 }
 
 @media screen and (max-width: 1060px) {
-  .collective-image {
+  .v--image {
     margin-left: 0px;
   }
-  .collective-container {
+  .v--container {
     flex-direction: column;
     height: 1150px;
   }
-  .text-container {
+  .v-text-container {
     width: 80vw;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .collective-container {
+  .v-container {
     flex-direction: column;
     height: 1600px;
   }
 
-  .text {
+  .v-text {
     padding: 0px 20px;
     width: 90vw;
   }
